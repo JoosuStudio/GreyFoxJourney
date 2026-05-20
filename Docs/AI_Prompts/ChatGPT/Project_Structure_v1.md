@@ -5,9 +5,33 @@ GreyFoxJourney
 │   │
 │   ├── Source
 │   │   ├── Maps
-│   │   ├── Settings
+│   │   │   ├── MapView
+│   │   │   ├── GPXLoader
+│   │   │   ├── ElevationProfile
+│   │   │   ├── RouteStore
+│   │   │   └── POIStore
+│   │   │
 │   │   ├── Tracking
+│   │   │   ├── GPSService
+│   │   │   ├── ProgressTracker
+│   │   │   └── DataStore
+│   │   │
+│   │   ├── Alerts
+│   │   │   └── AlertEngine
+│   │   │
+│   │   ├── Timers
+│   │   │   ├── TimerService
+│   │   │   └── TimerStore
+│   │   │
+│   │   ├── Settings
+│   │   │   └── UserPrefs
+│   │   │
 │   │   └── UI
+│   │       ├── Sidebar
+│   │       ├── StatsPanel
+│   │       ├── DaySelector
+│   │       ├── FilterBar
+│   │       └── QuickActions
 │   │
 │   └── Versions
 │       ├── Alpha
